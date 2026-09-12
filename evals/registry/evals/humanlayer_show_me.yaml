@@ -1,0 +1,8 @@
+id: humanlayer_show_me
+class: harnesss.codex.harness_show_me:ShowMeHarness
+args:
+  data_path: data/show_me.jsonl
+  model: text-davinci-003
+  max_tokens: 512
+  temperature: 0.0
+  output_path: outputs/codex_show_me_outputs.jsonl
