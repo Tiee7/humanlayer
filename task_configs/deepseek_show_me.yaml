@@ -1,0 +1,9 @@
+# DeepSeek task config for show-me
+# This is a minimal configuration used to document the dataset location and
+# basic expected format for DeepSeek-style runners.
+
+task: show_me
+dataset_path: data/deepseek_show_me.jsonl
+output_path: outputs/deepseek_show_me_outputs.jsonl
+model: openai
+openai_model: text-davinci-003
